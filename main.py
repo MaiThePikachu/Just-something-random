@@ -48,9 +48,11 @@ while not done:
 
     char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl': ")
 
+    print("Hmmmmm...Should I give you the power to name them? Would be easier so I don't need to make their name lol.")
 
+    char_name = input("What do you want their name to be: ")
 
-
+    print("Perfect! Now that we have that done you can start the story. This takes place in (I guess) your bedroom and you're playing a game on your computer. It was an oddly popular game because in a way it was ''magical''. Alas it was some futuristic yet medieval polygon game. It had a couple of bugs allowing you to clip through many of the games objects. Things like trees and entire buildings.")
 
 
     # First, clear the screen to white or whatever background colour. 
