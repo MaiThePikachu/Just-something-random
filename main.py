@@ -48,6 +48,9 @@ while not done:
 
     char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl': ")
 
+
+
+
     # First, clear the screen to white or whatever background colour. 
     # Don't put other drawing commands above this, or they will be erased with this command.
     screen.fill(white)
