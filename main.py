@@ -40,7 +40,7 @@ while not done:
 
     # --- Game logic should go here
     print()
-    print("Welcome! This is a text based game in a sense. Sure there are pictures, but this isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. (Please don't type the ' '.)")
+    print("Welcome! This is a text based game in a sense. Sure there are pictures, but this isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. (Please don't type the ' '. Also check if you typed the answers correctly because I don't have anything that will prevent you from mispelling.)")
 
     print()
     mc = input("What is your name: ")
@@ -51,13 +51,15 @@ while not done:
 
 
 
+
+
     # First, clear the screen to white or whatever background colour. 
     # Don't put other drawing commands above this, or they will be erased with this command.
     screen.fill(white)
  
     # --- Drawing code should go here
-     
-    
+    if char == boy:
+    elif char == girl:
      
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
