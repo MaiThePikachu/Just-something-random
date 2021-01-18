@@ -39,7 +39,14 @@ while not done:
   
 
     # --- Game logic should go here
-    print("Welcome! This is a text based game in a sense. Sure there are pictures, but this isn't the type of dating sim with buttons. It one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers.")
+    print()
+    print("Welcome! This is a text based game in a sense. Sure there are pictures, but this isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. (Please don't type the ' '.)")
+
+    print()
+    mc = input("What is your name: ")
+    print()
+
+    char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl': ")
 
     # First, clear the screen to white or whatever background colour. 
     # Don't put other drawing commands above this, or they will be erased with this command.
