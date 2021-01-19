@@ -59,7 +59,7 @@ while not done:
 
     print()
 
-    print("Perfect! Now that we have that done you can start the story. This takes place in (I guess) your bedroom and you're playing a game on your computer. It was an oddly popular game because in a way it was ''magical''. Alas it was some first-person, futuristic yet medieval polygon game. It had a couple of bugs allowing you to clip through many of the games objects. Things like trees and entire buildings even. Your walking through the forest clipping though a couple trees out of boredom All of a sudden some bushes start moving.")
+    print("Perfect! Now that we have that done you can start the story. This takes place in (I guess) your bedroom and you're playing a game on your computer. It was an oddly popular game because in a way it was ''magical''. Alas it was some first-person, futuristic yet medieval polygon game. It had a couple of bugs allowing you to clip through many of the games objects. Things like trees and entire buildings even. Your walking through the forest clipping though a couple trees out of boredom. All of a sudden some bushes start moving.")
 
     if char == boy:
       print("An oddly realistic boy jumps out and lunges at your charater driving his sword into it's stomach. You roll your swivel chair (aka spinny chair) backwards from surprize wondering if this game really is buggy. You turn around the chair wondering if you saw your character corretly when you hear a loud thump.")
@@ -73,7 +73,7 @@ while not done:
         print("He holds a blade towards you.")
         print("???: Who are you? Are you an apprentice to that wall phasing fool?")
 
-        print()
+        print("")
 
 
 
