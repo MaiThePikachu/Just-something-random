@@ -63,9 +63,27 @@ while not done:
 
     if char == boy:
       print("An oddly realistic boy jumps out and lunges at your charater driving his sword into it's stomach. You roll your swivel chair (aka spinny chair) backwards from surprize wondering if this game really is buggy. You turn around the chair wondering if you saw your character corretly when you hear a loud thump.")
-      
-      choice = input
 
+      print()
+
+      option_1 = input("Do you 'turn_around' or do you 'stay': ")
+
+      if option_1 == turn_around:
+        print("???: Okay foolish human where did you send me.")
+        print("He holds a blade towards you.")
+        print("???: Who are you? Are you an apprentice to that wall phasing fool?")
+
+        print()
+
+
+
+
+
+
+
+
+      elif option_1 == stay:
+        print("???: What is this room? Where did this foolish human send me?"
 
     # First, clear the screen to white or whatever background colour. 
     # Don't put other drawing commands above this, or they will be erased with this command.
