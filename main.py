@@ -22,7 +22,7 @@ pygame.init()
 size = (750, 580)
 screen = pygame.display.set_mode(size)
  
-pygame.display.set_caption("My Game")
+pygame.display.set_caption("Dating an NPC")
  
 #Loop until the user clicks the close button.
 done = False
