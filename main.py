@@ -39,6 +39,7 @@ while not done:
   
 
     # --- Game logic should go here
+    # Welcome, starting questions, and start of the story
     print()
     print("Welcome! This is a text based game in a sense. Sure there are pictures, but this isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. (Please don't type the ' '. Also check if you typed the answers correctly because I don't have anything that will prevent you from mispelling.)")
 
@@ -48,11 +49,22 @@ while not done:
 
     char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl': ")
 
+    print()
+
     print("Hmmmmm...Should I give you the power to name them? Would be easier so I don't need to make their name lol.")
+
+    print()
 
     char_name = input("What do you want their name to be: ")
 
-    print("Perfect! Now that we have that done you can start the story. This takes place in (I guess) your bedroom and you're playing a game on your computer. It was an oddly popular game because in a way it was ''magical''. Alas it was some futuristic yet medieval polygon game. It had a couple of bugs allowing you to clip through many of the games objects. Things like trees and entire buildings.")
+    print()
+
+    print("Perfect! Now that we have that done you can start the story. This takes place in (I guess) your bedroom and you're playing a game on your computer. It was an oddly popular game because in a way it was ''magical''. Alas it was some first-person, futuristic yet medieval polygon game. It had a couple of bugs allowing you to clip through many of the games objects. Things like trees and entire buildings even. Your walking through the forest clipping though a couple trees out of boredom All of a sudden some bushes start moving.")
+
+    if char == boy:
+      print("An oddly realistic boy jumps out and lunges at your charater driving his sword into it's stomach. You roll your swivel chair (aka spinny chair) backwards from surprize wondering if this game really is buggy. You turn around the chair wondering if you saw your character corretly when you hear a loud thump.")
+      
+      choice = input
 
 
     # First, clear the screen to white or whatever background colour. 
@@ -60,8 +72,7 @@ while not done:
     screen.fill(white)
  
     # --- Drawing code should go here
-    if char == boy:
-    elif char == girl:
+    
      
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
